@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+section{
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    padding: 150px 20% 0;
+  }
+  section div{
+    margin-bottom: 20px;
+  }
+  section h3{
+    font-family: Montserrat;
+  }
+  
+  .skill-item {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 10px; /* Optional: Adds space between each item */
+    animation: slideTop 1s ease forwards;
+    animation-delay: .7s;
+  }
+  
+  .skill-item img {
+    margin-right: 10px; /* Optional: Adds space between the image and the text */
+  }
+
+section h3{
+    animation: slideBottom 1s ease forwards;
+    animation-delay: .7s;
+}
+  

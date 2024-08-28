@@ -1,0 +1,21 @@
+ul li{
+    list-style: none;
+    padding-left: 2em;
+    line-height: 2em;
+    animation: slideLeft 1s ease forwards;
+}
+.shape{
+    background: rgb(27,0,36);
+background: linear-gradient(264deg, rgba(27,0,36,0.8604691876750701) 0%, rgba(19,208,222,1) 4%, rgba(0,241,255,0.9360994397759104) 100%);
+}
+
+@keyframes slideLeft{
+    0%{
+        transform: translateX(100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
